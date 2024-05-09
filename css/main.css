@@ -242,6 +242,7 @@ nav :first-child {
 @media screen and (max-width: 700px) {
 	.project {
 		height: auto;
+		width: 100vw;
 	}
 	.project-card {
 		width: 98%;
@@ -249,6 +250,7 @@ nav :first-child {
 	}
 	.project-desc {
 		text-align: left;
+		font-size: 1rem;
 	}
 }
 /* ABOUT SECTION STYLE */
@@ -411,6 +413,9 @@ nav :first-child {
 		gap: 3rem;
 		margin-top: 1.5rem;
 		justify-content: center;
+	}
+	.about p {
+		font-size: 1rem;
 	}
 	.education-skill {
 		width: 100vw;
