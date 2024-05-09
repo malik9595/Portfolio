@@ -8,11 +8,13 @@
 	line-height: 1.75rem; /* 28px */
 	font-family: var(--font-primary);
 }
+html,
 body {
 	height: 100vh;
 	width: 100vw;
 	overflow-x: hidden;
 	background: white;
+
 	color: var(--basic-color);
 }
 
@@ -91,7 +93,6 @@ nav :first-child {
 .home {
 	width: 100%;
 	height: calc(100vh + 70px);
-
 	background: url('../img/Home.jpg') no-repeat center center / cover;
 	color: var(--secondery-color);
 	display: flex;
@@ -236,11 +237,22 @@ nav :first-child {
 	display: inline-block;
 	background: url('../img/link.svg') no-repeat center center / cover;
 }
-
+@media screen and (max-width: 700px) {
+	.project {
+		height: auto;
+	}
+	.project-card {
+		width: 98%;
+	}
+	.project-desc {
+		text-align: left;
+	}
+}
 /* ABOUT SECTION STYLE */
 .about {
 	width: 100vw;
 	height: auto;
+
 	/* padding: 1rem; */
 }
 .about-desc {
@@ -388,6 +400,23 @@ nav :first-child {
 	}
 	.about fieldset {
 		width: 90%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.about-contain1 {
+		gap: 3rem;
+		margin-top: 1.5rem;
+	}
+	.education-skill {
+		width: 100vw;
+		gap: 3rem;
+	}
+	.education,
+	.education fieldset {
+		width: 98%;
+	}
+	.skill-div {
+		margin-bottom: 1.5rem;
 	}
 }
 /* CONTACT STYLE */
