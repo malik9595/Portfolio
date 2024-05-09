@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini&family=Roboto&display=swap');
+:root{
+    --basic-color:rgb(15, 20, 40);
+    --secondery-color:white;
+    --primary-color:#2563eb;
+/* --primary-color:rgb(57,255,20); */
+/* --primary-color:#00008b; */
+    --grey-text-color:rgb(156 163 175);
+    --grey-bg-color: #eeeee4;
+
+    --text-base:1.25rem; /* 20px */
+    --text-l: 1.5rem; /* 24px */
+    --text-xl: 2.1rem; /* 33px */
+    --text-xxl: 3rem; /* 48px */
+    --text-small: 0.875rem; /* 14px */
+
+    --font-primary: "Roboto", sans-serif;
+    --font-secondry: "Jaini", system-ui;
+
+}
