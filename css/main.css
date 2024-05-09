@@ -257,8 +257,7 @@ nav :first-child {
 .about {
 	width: 100vw;
 	height: auto;
-
-	/* padding: 1rem; */
+	padding: 1rem;
 }
 .about-desc {
 	text-align: center;
