@@ -39,7 +39,6 @@ body {
 .home .title {
 	font-size: 70px;
 	font-size: var(--text-xxl);
-	/* font-size: clamp(65px, 1.5vw, 100px); */
 	font-family: 'Lemon', serif;
 	line-height: 55px;
 	letter-spacing: -3px;
@@ -86,5 +85,8 @@ body {
 .hireme:hover {
 	border: 2px solid var(--primary-color);
 }
-
-
+@media screen and (max-width: 600px) {
+	.home {
+		padding: 0 1rem;
+	}
+}

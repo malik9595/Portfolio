@@ -1,9 +1,5 @@
 /* RESPONSIVESESS */
-@media screen and (max-width: 600px) {
-	.home {
-		padding: 0 1rem;
-	}
-}
+
 /* PROJECT SECTION STYLE */
 .project {
 	display: flex;
