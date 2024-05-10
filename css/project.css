@@ -1,0 +1,103 @@
+/* RESPONSIVESESS */
+@media screen and (max-width: 600px) {
+	.home {
+		padding: 0 1rem;
+	}
+}
+/* PROJECT SECTION STYLE */
+.project {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	padding: 3rem 2rem;
+	transition: 0.5s ease;
+}
+.project-title {
+	font-size: var(--text-xl);
+	text-align: center;
+	/* line-height: 2.5rem; */
+}
+.project-desc {
+	color: var(--grey-text-color);
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.project-card {
+	height: 430px;
+	width: 330px;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.5s ease;
+	/* animation */
+}
+.cardDarkmode {
+	box-shadow: 0 4px 12px rgba(242, 236, 236, 0.1);
+}
+.projectCard-desc {
+	color: var(--grey-text-color);
+	padding-bottom: 0.9rem;
+}
+.projectCard-title {
+	font-size: 1.5rem; /* 24px */
+	padding: 2rem 0;
+	font-weight: 500;
+}
+.project-features {
+	list-style: none;
+	width: 100%;
+	padding: 0 0.5rem;
+	/* background: #d1d5db; */
+}
+.project-features li {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin-top: 2px;
+	gap: 1.5rem;
+	transition: 0.5s ease;
+}
+.doubleCheck {
+	height: 1.5rem;
+	width: 1.5rem;
+	display: inline-block;
+	user-select: none;
+	background: url('../img/doubleCheck.svg') no-repeat center center / cover;
+}
+
+.project-link-container a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	text-decoration: none;
+	color: var(--primary-color);
+	padding: 0.9rem 0;
+	margin-bottom: 0;
+}
+.project .link-icon {
+	height: 1.5rem;
+	width: 1.5rem;
+	display: inline-block;
+	background: url('../img/link.svg') no-repeat center center / cover;
+}
+@media screen and (max-width: 700px) {
+	.project {
+		height: auto;
+		width: 100vw;
+	    padding: 3rem 1rem;
+
+	}
+	.project-card {
+		width: 98%;
+		height: auto;
+	}
+	.project-desc {
+		text-align: left;
+		font-size: 1rem;
+	}
+}

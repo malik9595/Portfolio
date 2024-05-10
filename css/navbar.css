@@ -1,0 +1,71 @@
+/* NAVBAR STYLE START */
+.nav-container {
+	position: fixed;
+	width: 100vw;
+	height: auto;
+	z-index: 5;
+	background: inherit;
+}
+nav {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 1.5rem;
+	max-width: 1250px;
+	height: 60px;
+	margin: auto;
+	position: relative;
+	transition: 0.5s ease;
+}
+nav .logo {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	font-size: 0.7rem;
+	text-align: center;
+	align-content: center;
+	background: var(--primary-color);
+	color: white;
+	user-select: none;
+}
+nav :first-child {
+	margin-right: auto;
+}
+.nav-items {
+	display: flex;
+	gap: 1.5rem;
+	cursor: pointer;
+}
+.darkmode {
+	color: white;
+	background: black;
+}
+.active {
+	color: var(--primary-color);
+}
+
+@media screen and (max-width: 700px) {
+	.nav-items {
+		position: absolute;
+		right: 0px;
+		background: black;
+		color: white;
+		flex-direction: column;
+		width: 200px;
+		margin-top: 270px;
+		transition: transform 0.5s ease;
+		gap: 1rem;
+		padding: 0 1rem;
+		transform: translateX(100vw);
+	}
+
+	.sideNavActive {
+		/* right: 0px; */
+		transform: translateX(0vw);
+	}
+	.sideNavActive :hover {
+		color: var(--primary-color);
+	}
+}
+/* NAVBAR STYLE END */
