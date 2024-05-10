@@ -27,7 +27,7 @@ body {
 
 /* HOME SECTION STYLE */
 .home {
-	width: 100%;
+	width: 100vw;
 	height: calc(100vh + 70px);
 	background: url('../img/Home.jpg') no-repeat center center / cover;
 	color: var(--secondery-color);
@@ -87,6 +87,6 @@ body {
 }
 @media screen and (max-width: 600px) {
 	.home {
-		padding: 0 1rem;
+		padding: 0.5rem;
 	}
 }
