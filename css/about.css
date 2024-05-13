@@ -141,6 +141,7 @@
 	}
 	.about-contain1 p {
 		width: 90%;
+	
 	}
 	.education-skill {
 		flex-direction: column;
@@ -165,6 +166,9 @@
 	.about p {
 		font-size: 1rem;
 		width: 94%;
+	}
+	.about-desc p{
+		letter-spacing: 1rem;
 	}
 	.education-skill {
 		width: 100vw;
